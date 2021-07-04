@@ -550,7 +550,7 @@
     margin-bottom: 30px;
     font-size: 20px;
 }
-.form input, textarea {
+.form input, .form textarea {
     display: block;
     height: 40px;
     width: 100%;
@@ -577,4 +577,61 @@
     background: #e40800;
     color: #ddd;
     border-color: #e40800;
+}
+
+
+
+@media (max-width: 700px){
+    .blog-left {
+        width: 90%;
+        margin: 25px auto;
+    }
+    .blog-right {
+        width: 90%;
+        margin: 25px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------- contact us -----------------------------*/
+/* location */
+.location {
+    width: 80%;
+    margin: 60px auto;
+}
+.location iframe{
+    width: 100%
+}
+.contact-half {
+    width: 40%;
+    margin: 60px;
+}
+.contact-us {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.contact-us i {
+    font-size: 28px;
+    color: #e40800;
+    margin: 0 25px;
+}
+.contact-half form input, .contact-half form textarea {
+    width: 100%;
+    display: block;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+.contact-half form textarea {
+    height: 180px;
 }
